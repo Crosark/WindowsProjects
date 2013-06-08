@@ -23,6 +23,7 @@
                 <Image Source="/Assets/triangle.png" Height="24" Width="24" Visibility="Collapsed" Margin="0,0,20,0"/>
                 <Image Source="/Assets/check.png" Height="24" Width="24" Margin="0,0,20,0" Visibility="Collapsed"/>
                 <TextBlock Text="Task 1" VerticalAlignment="Center" FontSize="32"/>
+                <ProgressBar VerticalAlignment="Center" Width="200" Height="10" Margin="40,0,0,0" Maximum="100" Minimum="0"/>
             </StackPanel>
             
             <!-- Task 2 -->
@@ -30,13 +31,15 @@
                 <Image Source="/Assets/triangle.png" Height="24" Width="24" Visibility="Collapsed" Margin="0,0,20,0"/>
                 <Image Source="/Assets/check.png" Height="24" Width="24" Margin="0,0,20,0" Visibility="Collapsed"/>
                 <TextBlock Text="Task 2" VerticalAlignment="Center" FontSize="32"/>
+                <ProgressBar VerticalAlignment="Center" Width="200" Height="10" Margin="40,0,0,0"  Maximum="100" Minimum="0"/>
             </StackPanel>
             
             <!-- Task 3 -->
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Top" Name="Task3Panel" Margin="15">
                 <Image Source="/Assets/triangle.png" Height="24" Width="24" Visibility="Collapsed" Margin="0,0,20,0"/>
-                <Image Source="/Assets/check.png" Height="24" Width="24" Margin="0,0,20,0" Visibility="Collapsed"/>
+                <Image Source="/Assets/check.png" Height="24" Width="24" Margin="0,0,20,0" Visibility="Collapsed" />
                 <TextBlock Text="Task 3" VerticalAlignment="Center" FontSize="32"/>
+                <ProgressBar VerticalAlignment="Center" Width="200" Height="10" Margin="40,0,0,0"  Maximum="100" Minimum="0"/>
             </StackPanel>
 
             <!-- Task 4 -->
@@ -44,6 +47,7 @@
                 <Image Source="/Assets/triangle.png" Height="24" Width="24" Visibility="Collapsed" Margin="0,0,20,0"/>
                 <Image Source="/Assets/check.png" Height="24" Width="24" Margin="0,0,20,0" Visibility="Collapsed"/>
                 <TextBlock Text="Task 4" VerticalAlignment="Center" FontSize="32"/>
+                <ProgressBar VerticalAlignment="Center" Width="200" Height="10" Margin="40,0,0,0"  Maximum="100" Minimum="0"/>
             </StackPanel>
         </StackPanel>
     </Grid>

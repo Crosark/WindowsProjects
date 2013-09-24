@@ -92,6 +92,7 @@ namespace AsynchronousTasks
         /// <param name="e"></param>
         private void PhoneApplicationPage_Loaded_1(object sender, RoutedEventArgs e) {
             performAllTasks();
+            Console.WriteLine("\n---- starting app ---\n");
         }
     }
-}
+}   

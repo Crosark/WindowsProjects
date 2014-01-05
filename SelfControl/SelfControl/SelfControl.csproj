@@ -193,8 +193,15 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Tiles\tile_large.png" />
+    <Content Include="Assets\Tiles\tile_med.png" />
+    <Content Include="Assets\Tiles\tile_small.png" />
+    <Content Include="ico_app.png" />
     <Content Include="README_FIRST.txt" />
     <Content Include="Resources\XMLFile1.xml" />
+    <Content Include="tile_large.png" />
+    <Content Include="tile_med.png" />
+    <Content Include="tile_small.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />

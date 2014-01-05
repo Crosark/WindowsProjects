@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{4bb9187b-0bd8-46e6-a3b4-781c61061a6c}" Title="SelfControl" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SelfControl author" Description="Sample description" Publisher="SelfControl" PublisherID="{1438cb1a-e4fc-4a48-88ea-9000bb51a9a6}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+  <App xmlns="" ProductID="{4bb9187b-0bd8-46e6-a3b4-781c61061a6c}" Title="Self Control" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SelfControl author" Description="Sample description" Publisher="SelfControl" PublisherID="{1438cb1a-e4fc-4a48-88ea-9000bb51a9a6}">
+    <IconPath IsRelative="true" IsResource="false">ico_app.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -13,25 +13,29 @@
       <Capability Name="ID_CAP_MAP" />
     </Capabilities>
     <Tasks>
-      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+      <!-- Fast resume -->
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" ActivationPolicy="Resume"/>
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="SelfControlToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">tile_small.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>SelfControl</Title>
+          <BackgroundImageURI IsRelative="true" IsResource="false">tile_med.png</BackgroundImageURI>
+          <Title>Self Control</Title>
           <BackContent>
           </BackContent>
           <BackBackgroundImageURI>
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">tile_large.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
           <DeviceLockImageURI>
           </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <HasLarge>True</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
